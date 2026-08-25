@@ -3,7 +3,7 @@
     "default": "hethera-9264e"
   },
   "targets": {
-    "Hethera": {
+    "hethera-9264e": {
       "hosting": {
         "prod": [
           "hethera-prod"
