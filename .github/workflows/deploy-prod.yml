@@ -32,6 +32,6 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          projectId: hethera
+          projectId: hethera-9264e
           target: prod
           channelId: live
