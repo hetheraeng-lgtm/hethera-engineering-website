@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "hethera"
+  },
+  "targets": {
+    "Hethera": {
+      "hosting": {
+        "prod": [
+          "hethera"
+        ],
+        "staging": [
+          "hethera-staging"
+        ],
+        "dev": [
+          "hethera-dev"
+        ]
+      }
+    }
+  }
+}
