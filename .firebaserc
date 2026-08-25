@@ -6,13 +6,13 @@
     "Hethera": {
       "hosting": {
         "prod": [
-          "hethera"
+          "hethera-prod"
         ],
         "staging": [
           "hethera-staging"
         ],
         "dev": [
-          "hethera-dev"
+          "hethera"
         ]
       }
     }
