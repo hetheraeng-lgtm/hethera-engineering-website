@@ -9,7 +9,7 @@ export const COMPANY = {
   incorporatedOn: '15 September 2026',
   companyType: 'Private company limited by shares',
   registeredAddress: '16, Adisa Basua Street, Surulere, Lagos State, Nigeria',
-  supportEmail: 'abimbolaolayemiwhyte@gmail.com',
+  supportEmail: 'info@hetheraengineering.com',
   phone: '+2348119995541',
   phoneDisplay: '+234 811 999 5541',
   supportHours: 'Monday to Friday, 9:00–18:00 WAT',
