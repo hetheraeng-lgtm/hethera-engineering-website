@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Source for public/og-image.png. Regenerate with:
+       rsvg-convert -w 1200 -h 630 scripts/og-image.svg -o public/og-image.png -->
+  <defs>
+    <clipPath id="screen">
+      <rect x="12" y="12" width="296" height="660" rx="34"/>
+    </clipPath>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c6f160" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c6f160" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0e1a13"/>
+  <circle cx="300" cy="300" r="420" fill="url(#glow)"/>
+  <circle cx="975" cy="345" r="255" fill="#c6f160"/>
+
+  <!-- Logo -->
+  <g transform="translate(72 64)">
+    <rect width="56" height="56" rx="14" fill="#c6f160"/>
+    <g transform="translate(12 12) scale(1.3333)" fill="none" stroke="#0e1a13" stroke-width="3" stroke-linecap="round">
+      <path d="M6 4v16M18 4v16M6 12h12"/>
+    </g>
+    <text x="74" y="41" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="36" letter-spacing="-1" fill="#ffffff">hethera</text>
+  </g>
+
+  <!-- Headline -->
+  <text font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="800" font-size="88" letter-spacing="-3.5">
+    <tspan x="68" y="232" fill="#ffffff">Pay any bill.</tspan>
+    <tspan x="68" y="324" fill="#c6f160">Just text it.</tspan>
+  </text>
+  <text x="72" y="378" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="500" font-size="26" fill="#c9d1c8">Bill payments on WhatsApp, made for Nigeria</text>
+
+  <!-- Bill chips -->
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="600" font-size="20" fill="#ffffff">
+    <rect x="72" y="414" width="124" height="48" rx="24" fill="#18291f" stroke="#33463a"/>
+    <circle cx="96" cy="438" r="5" fill="#c6f160"/>
+    <text x="110" y="445">Airtime</text>
+
+    <rect x="208" y="414" width="96" height="48" rx="24" fill="#18291f" stroke="#33463a"/>
+    <circle cx="232" cy="438" r="5" fill="#c6f160"/>
+    <text x="246" y="445">Data</text>
+
+    <rect x="316" y="414" width="134" height="48" rx="24" fill="#18291f" stroke="#33463a"/>
+    <circle cx="340" cy="438" r="5" fill="#c6f160"/>
+    <text x="354" y="445">Cable TV</text>
+
+    <rect x="462" y="414" width="150" height="48" rx="24" fill="#18291f" stroke="#33463a"/>
+    <circle cx="486" cy="438" r="5" fill="#c6f160"/>
+    <text x="500" y="445">Electricity</text>
+  </g>
+
+  <!-- Trust row -->
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="500" font-size="19" fill="#b4beb5">
+    <g transform="translate(72 524)" fill="none" stroke="#c6f160" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="9" width="14" height="11" rx="2"/>
+      <path d="M7 9V6a4 4 0 0 1 8 0v3"/>
+    </g>
+    <text x="102" y="544">PIN-secured</text>
+    <g transform="translate(232 524)" fill="none" stroke="#c6f160" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="1" y="5" width="20" height="14" rx="2"/>
+      <path d="M1 10h20"/>
+    </g>
+    <text x="262" y="544">Cards via Paystack</text>
+    <g transform="translate(442 524)" fill="none" stroke="#c6f160" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 12a9 9 0 1 0 3-6.7L3 8"/>
+      <path d="M3 3v5h5"/>
+    </g>
+    <text x="472" y="544">Auto-refunds</text>
+  </g>
+
+  <!-- Phone -->
+  <g transform="translate(818 58) rotate(-5 160 340)">
+    <rect width="320" height="684" rx="46" fill="#08100b" stroke="#2a3a30" stroke-width="2"/>
+    <g clip-path="url(#screen)">
+      <rect x="12" y="12" width="296" height="660" fill="#ede6dc"/>
+      <rect x="12" y="12" width="296" height="78" fill="#0f3b2a"/>
+      <circle cx="54" cy="51" r="21" fill="#c6f160"/>
+      <g transform="translate(42 39)" fill="none" stroke="#0e1a13" stroke-width="3" stroke-linecap="round">
+        <path d="M5 3v18M19 3v18M5 12h14"/>
+      </g>
+      <text x="86" y="47" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="19" fill="#ffffff">Hethera</text>
+      <text x="86" y="68" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#b9d3c4">Business account</text>
+
+      <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#111b15">
+        <!-- user -->
+        <rect x="94" y="108" width="198" height="64" rx="14" fill="#d9fdd3"/>
+        <text x="108" y="134">Buy ₦5,000 light for</text>
+        <text x="108" y="157">my meter at home</text>
+
+        <!-- confirm -->
+        <rect x="26" y="186" width="232" height="132" rx="14" fill="#ffffff"/>
+        <text x="40" y="212" font-weight="700">Ikeja Electric · Prepaid</text>
+        <text x="40" y="235">Meter 4502 ••• 8811</text>
+        <text x="40" y="258">Total ₦5,000</text>
+        <rect x="40" y="270" width="204" height="1" fill="#e5e0d5"/>
+        <g transform="translate(70 284)" fill="none" stroke="#0b7a5a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="1" y="7" width="12" height="10" rx="2"/>
+          <path d="M3.5 7V4.5a3.5 3.5 0 0 1 7 0V7"/>
+        </g>
+        <text x="92" y="301" font-weight="700" fill="#0b7a5a">Enter PIN securely</text>
+
+        <!-- done -->
+        <rect x="26" y="332" width="246" height="118" rx="14" fill="#ffffff"/>
+        <path d="M42 357l5 5 10-10" fill="none" stroke="#1f7a45" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="64" y="363" font-weight="700" fill="#1f7a45">Done! Your token:</text>
+        <rect x="40" y="376" width="218" height="40" rx="9" fill="#f4f2ec"/>
+        <text x="149" y="403" text-anchor="middle" font-family="Menlo, Monaco, monospace" font-weight="700" font-size="16" fill="#0e1a13">4821 0937 5512 6604</text>
+        <text x="40" y="438" font-size="14" fill="#4f5a52">Paid with Visa •••• 4081</text>
+
+        <!-- follow-up -->
+        <rect x="26" y="464" width="214" height="44" rx="14" fill="#ffffff"/>
+        <text x="40" y="492">Anything else today?</text>
+
+        <rect x="134" y="522" width="158" height="44" rx="14" fill="#d9fdd3"/>
+        <text x="148" y="550">Data for mum too</text>
+      </g>
+    </g>
+  </g>
+</svg>

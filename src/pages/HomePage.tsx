@@ -86,7 +86,7 @@ const FEATURES: { title: string; body: string; soon?: boolean }[] = [
   },
 ];
 
-const FAQS: { q: string; a: ReactNode }[] = [
+export const FAQS: { q: string; a: ReactNode }[] = [
   {
     q: 'Is Hethera a bank?',
     a: 'No. Hethera is a bill-payment service. We do not hold deposits or keep a wallet balance for you. Each purchase is charged directly to the card you saved, processed by Paystack. Airtime, data, cable and electricity are fulfilled through our bill-payment partner, VTpass.',

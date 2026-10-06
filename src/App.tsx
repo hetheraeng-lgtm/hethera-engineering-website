@@ -1,33 +1,17 @@
-import { useEffect, type ComponentType } from 'react';
+import { useEffect } from 'react';
 
 import { SiteFooter } from './components/SiteFooter';
 import { SiteHeader } from './components/SiteHeader';
-import { HomePage } from './pages/HomePage';
-import { DataDeletionPage } from './pages/legal/DataDeletionPage';
-import { PrivacyPage } from './pages/legal/PrivacyPage';
-import { RefundPolicyPage } from './pages/legal/RefundPolicyPage';
-import { TermsPage } from './pages/legal/TermsPage';
-import { NotFoundPage } from './pages/NotFoundPage';
+import { findRoute } from './routes';
 
-// Every page is a full page load (Firebase rewrites all paths to index.html),
-// so routing is just a lookup on the current pathname.
-const ROUTES: Record<string, { title: string; Page: ComponentType }> = {
-  '/': { title: 'Hethera — Pay bills on WhatsApp', Page: HomePage },
-  '/privacy': { title: 'Privacy Policy — Hethera', Page: PrivacyPage },
-  '/terms': { title: 'Terms of Service — Hethera', Page: TermsPage },
-  '/refund-policy': { title: 'Refund Policy — Hethera', Page: RefundPolicyPage },
-  '/data-deletion': { title: 'Data deletion — Hethera', Page: DataDeletionPage },
+type Props = {
+  // Set by scripts/prerender.js; in the browser the current URL decides.
+  path?: string;
 };
 
-function normalize(pathname: string): string {
-  const trimmed = pathname.replace(/\/+$/, '');
-  return trimmed === '' ? '/' : trimmed.toLowerCase();
-}
-
-function App() {
-  const route = ROUTES[normalize(window.location.pathname)];
-  const title = route?.title ?? 'Page not found — Hethera';
-  const Page = route?.Page ?? NotFoundPage;
+// Every page is a full page load, so routing is just a lookup on the pathname.
+function App({ path }: Props) {
+  const { title, Page } = findRoute(path ?? window.location.pathname);
 
   useEffect(() => {
     document.title = title;
